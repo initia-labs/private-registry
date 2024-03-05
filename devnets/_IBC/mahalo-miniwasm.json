@@ -1,12 +1,12 @@
 {
   "$schema": "../../ibc_data.schema.json",
   "chain_1": {
-    "chain_name": "mahalo",
+    "chain_name": "stone",
     "client_id": "07-tendermint-1",
     "connection_id": "connection-1"
   },
   "chain_2": {
-    "chain_name": "miniwasm",
+    "chain_name": "free",
     "client_id": "07-tendermint-0",
     "connection_id": "connection-0"
   },
