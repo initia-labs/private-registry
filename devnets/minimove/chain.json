@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
-  "chain_name": "free",
-  "chain_id": "free-4",
+  "chain_name": "minimove",
+  "chain_id": "stonemove-14",
   "website": "https://initia.xyz",
   "pretty_name": "Initia MoveVM L2",
   "status": "live",
@@ -16,14 +16,7 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "l2/2588fd87a8e081f6a557f43ff14f05dddf5e34cb27afcefd6eaf81f1daea30d0",
-        "fixed_min_gas_price": 0.15,
-        "low_gas_price": 0.15,
-        "average_gas_price": 0.15,
-        "high_gas_price": 0.4
-      },
-      {
-        "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+        "denom": "l2/771d639f30fbe45e3fbca954ffbe2fcc26f915f5513c67a4a2d0bc1d635bdefd",
         "fixed_min_gas_price": 0.15,
         "low_gas_price": 0.15,
         "average_gas_price": 0.15,
@@ -42,13 +35,13 @@
       "main"
     ],
     "binaries": {
-      "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.2_Linux_x86_64.tar.gz",
-      "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.2_Linux_aarch64.tar.gz",
-      "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.2_Darwin_x86_64.tar.gz",
-      "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.2_Darwin_aarch64.tar.gz"
+      "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.2_Linux_x86_64.tar.gz",
+      "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.2_Linux_aarch64.tar.gz",
+      "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.2_Darwin_x86_64.tar.gz",
+      "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.2_Darwin_aarch64.tar.gz"
     },
     "genesis": {
-      "genesis_url": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/genesis.json"
+      "genesis_url": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/genesis.json"
     },
     "versions": [
       {
@@ -57,10 +50,10 @@
         "recommended_version": "v0.2.0-beta.3",
         "compatible_versions": ["v0.2.0-beta.3"],
         "binaries": {
-          "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.3_Linux_x86_64.tar.gz",
-          "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.3_Linux_aarch64.tar.gz",
-          "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.3_Darwin_x86_64.tar.gz",
-          "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/free-4/free_v0.2.0-beta.3_Darwin_aarch64.tar.gz"
+          "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.3_Linux_x86_64.tar.gz",
+          "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.3_Linux_aarch64.tar.gz",
+          "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.3_Darwin_x86_64.tar.gz",
+          "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/free_v0.2.0-beta.3_Darwin_aarch64.tar.gz"
         },
         "consensus": {
           "type": "cometbft",
@@ -83,19 +76,19 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.free-4.initia.xyz",
+        "address": "https://rpc.stonemove-14.initia.xyz",
         "provider": "Foundation"
       }
     ],
     "rest": [
       {
-        "address": "https://lcd.free-4.initia.xyz",
+        "address": "https://lcd.stonemove-14.initia.xyz",
         "provider": "Foundation"
       }
     ],
     "api": [
       {
-        "address": "https://api.free-4.initia.xyz",
+        "address": "https://api.stonemove-14.initia.xyz",
         "provider": "Foundation"
       }
     ],
@@ -109,15 +102,15 @@
   "explorers": [
     {
       "kind": "explorer",
-      "url": "https://explorer.free-4.initia.xyz/?layer=free",
-      "tx_page": "https://explorer.free-4.initia.xyz/tx/${txHash}?layer=free",
-      "account_page": "https://explorer.free-4.initia.xyz/address/${accountAddress}?layer=free"
+      "url": "https://explorer.stonemove-14.initia.xyz/?layer=free",
+      "tx_page": "https://explorer.stonemove-14.initia.xyz/tx/${txHash}?layer=free",
+      "account_page": "https://explorer.stonemove-14.initia.xyz/address/${accountAddress}?layer=free"
     },
     {
       "kind": "initia scan",
-      "url": "https://scan.initia.xyz/free-4",
-      "tx_page": "https://scan.initia.xyz/free-4/txs/${txHash}",
-      "account_page": "https://scan.initia.xyz/free-4/accounts/${accountAddress}"
+      "url": "https://scan.initia.xyz/stonemove-14",
+      "tx_page": "https://scan.initia.xyz/stonemove-14/txs/${txHash}",
+      "account_page": "https://scan.initia.xyz/stonemove-14/accounts/${accountAddress}"
     }
   ],
   "images": [
@@ -131,17 +124,24 @@
     "svg": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/free/images/INIT.svg"
   },
   "metadata": {
-    "op_bridge_id": "2",
-    "creator": "0xf324bf4f355abec6d49fdfd0d45419ba99d363d9",
+    "op_bridge_id": "1",
+    "creator": "0x723e7894466de983976cc54302f9c436b3291106",
     "op_denoms": [
       "uinit"
     ],
     "ibc_channels": {
       "channel": [
         {
-          "chain_id": "stone-13",
-          "transfer": "channel-0",
-          "nft-transfer": "channel-1"
+          "chain_id": "stone-14",
+          "port-id": "transfer",
+          "channel-id": "channel-0",
+          "version": "ics20-1"
+        },
+        {
+          "chain_id": "stone-14",
+          "port-id": "nft-transfer",
+          "channel-id": "channel-2",
+          "version": "ics721-1"
         }
       ]
     }
