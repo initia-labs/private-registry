@@ -140,26 +140,26 @@
       "channel": [
         {
           "chain_id": "stonemove-14",
-          "port-id": "transfer",
-          "channel-id": "channel-0",
+          "port_id": "transfer",
+          "channel_id": "channel-0",
           "version": "ics20-1"
         },
         {
           "chain_id": "stonewasm-14",
-          "port-id": "transfer",
-          "channel-id": "channel-2",
+          "port_id": "transfer",
+          "channel_id": "channel-2",
           "version": "ics20-1"
         },
         {
           "chain_id": "stonemove-14",
-          "port-id": "nft-transfer",
-          "channel-id": "channel-5",
+          "port_id": "nft-transfer",
+          "channel_id": "channel-5",
           "version": "ics721-1"
         },
         {
           "chain_id": "stonewasm-14",
-          "port-id": "nft-transfer",
-          "channel-id": "channel-6",
+          "port_id": "nft-transfer",
+          "channel_id": "channel-6",
           "version": "ics721-1"
         }
       ]

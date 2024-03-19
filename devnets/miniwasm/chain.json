@@ -128,14 +128,14 @@
       "channel": [
         {
           "chain_id": "stone-14",
-          "port-id": "transfer",
-          "channel-id": "channel-0",
+          "port_id": "transfer",
+          "channel_id": "channel-0",
           "version": "ics20-1"
         },
         {
           "chain_id": "stone-14",
-          "port-id": "wasm.init1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq7947m6",
-          "channel-id": "channel-1",
+          "port_id": "wasm.init1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq7947m6",
+          "channel_id": "channel-1",
           "version": "ics721-1"
         }
       ]
