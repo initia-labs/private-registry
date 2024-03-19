@@ -136,33 +136,31 @@
   },
   "metadata": {
     "is_l1": true,
-    "ibc_channels": {
-      "channel": [
-        {
-          "chain_id": "stonemove-14",
-          "port_id": "transfer",
-          "channel_id": "channel-0",
-          "version": "ics20-1"
-        },
-        {
-          "chain_id": "stonewasm-14",
-          "port_id": "transfer",
-          "channel_id": "channel-2",
-          "version": "ics20-1"
-        },
-        {
-          "chain_id": "stonemove-14",
-          "port_id": "nft-transfer",
-          "channel_id": "channel-5",
-          "version": "ics721-1"
-        },
-        {
-          "chain_id": "stonewasm-14",
-          "port_id": "nft-transfer",
-          "channel_id": "channel-6",
-          "version": "ics721-1"
-        }
-      ]
-    }
+    "ibc_channels": [
+      {
+        "chain_id": "stonemove-14",
+        "port_id": "transfer",
+        "channel_id": "channel-0",
+        "version": "ics20-1"
+      },
+      {
+        "chain_id": "stonewasm-14",
+        "port_id": "transfer",
+        "channel_id": "channel-2",
+        "version": "ics20-1"
+      },
+      {
+        "chain_id": "stonemove-14",
+        "port_id": "nft-transfer",
+        "channel_id": "channel-5",
+        "version": "ics721-1"
+      },
+      {
+        "chain_id": "stonewasm-14",
+        "port_id": "nft-transfer",
+        "channel_id": "channel-6",
+        "version": "ics721-1"
+      }
+    ]
   }
 }

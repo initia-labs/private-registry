@@ -129,21 +129,19 @@
     "op_denoms": [
       "uinit"
     ],
-    "ibc_channels": {
-      "channel": [
-        {
-          "chain_id": "stone-14",
-          "port_id": "transfer",
-          "channel_id": "channel-0",
-          "version": "ics20-1"
-        },
-        {
-          "chain_id": "stone-14",
-          "port_id": "nft-transfer",
-          "channel_id": "channel-2",
-          "version": "ics721-1"
-        }
-      ]
-    }
+    "ibc_channels": [
+      {
+        "chain_id": "stone-14",
+        "port_id": "transfer",
+        "channel_id": "channel-0",
+        "version": "ics20-1"
+      },
+      {
+        "chain_id": "stone-14",
+        "port_id": "nft-transfer",
+        "channel_id": "channel-2",
+        "version": "ics721-1"
+      }
+    ]
   }
 }
