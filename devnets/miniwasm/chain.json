@@ -1,6 +1,6 @@
 {
   "$schema": "../../chain.schema.json",
-  "chain_name": "miniwasm",
+  "chain_name": "Miniwasm",
   "chain_id": "stonewasm-14",
   "website": "https://initia.xyz",
   "pretty_name": "Initia WasmVM L2",
