@@ -148,13 +148,13 @@
           "chain_id": "stonewasm-14",
           "port-id": "transfer",
           "channel-id": "channel-2",
-          "version": "ics721-1"
+          "version": "ics20-1"
         },
         {
           "chain_id": "stonemove-14",
           "port-id": "nft-transfer",
           "channel-id": "channel-5",
-          "version": "ics20-1"
+          "version": "ics721-1"
         },
         {
           "chain_id": "stonewasm-14",
