@@ -26,14 +26,14 @@
     "staking_tokens": []
   },
   "codebase": {
-    "git_repo": "https://github.com/initia-labs/game",
+    "git_repo": "https://github.com/initia-labs/minimove",
     "recommended_version": "v0.2.0-beta.5.2",
     "compatible_versions": ["v0.2.0-beta.5.2", "main"],
     "binaries": {
-      "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.5.2_Linux_x86_64.tar.gz",
-      "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.5.2_Linux_aarch64.tar.gz",
-      "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.5.2_Darwin_x86_64.tar.gz",
-      "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.5.2_Darwin_aarch64.tar.gz"
+      "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.5.2_Linux_x86_64.tar.gz",
+      "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.5.2_Linux_aarch64.tar.gz",
+      "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.5.2_Darwin_x86_64.tar.gz",
+      "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.5.2_Darwin_aarch64.tar.gz"
     },
     "genesis": {
       "genesis_url": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/genesis.json"
@@ -45,10 +45,10 @@
         "recommended_version": "v0.2.0-beta.6.1",
         "compatible_versions": ["v0.2.0-beta.6.1"],
         "binaries": {
-          "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.6.1_Linux_x86_64.tar.gz",
-          "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.6.1_Linux_aarch64.tar.gz",
-          "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.6.1_Darwin_x86_64.tar.gz",
-          "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/game_v0.2.0-beta.6.1_Darwin_aarch64.tar.gz"
+          "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.6.1_Linux_x86_64.tar.gz",
+          "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.6.1_Linux_aarch64.tar.gz",
+          "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.6.1_Darwin_x86_64.tar.gz",
+          "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasm-14/minimove_v0.2.0-beta.6.1_Darwin_aarch64.tar.gz"
         },
         "consensus": {
           "type": "cometbft",
@@ -63,7 +63,7 @@
       }
     ]
   },
-  "description": "game Closed Devnet",
+  "description": "minimove Closed Devnet",
   "peers": {
     "seeds": [],
     "persistent_peers": []
@@ -97,9 +97,9 @@
   "explorers": [
     {
       "kind": "explorer",
-      "url": "https://explorer.stonewasm-14.initia.xyz/?layer=game",
-      "tx_page": "https://explorer.stonewasm-14.initia.xyz/tx/${txHash}?layer=game",
-      "account_page": "https://explorer.stonewasm-14.initia.xyz/address/${accountAddress}?layer=game"
+      "url": "https://explorer.stonewasm-14.initia.xyz/?layer=minimove",
+      "tx_page": "https://explorer.stonewasm-14.initia.xyz/tx/${txHash}?layer=minimove",
+      "account_page": "https://explorer.stonewasm-14.initia.xyz/address/${accountAddress}?layer=minimove"
     },
     {
       "kind": "initia scan",
@@ -110,13 +110,13 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/game/images/INIT.png",
-      "svg": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/game/images/INIT.svg"
+      "png": "https://raw.githubusercontent.com/initia-labs/private-registry/main/devnets/minimove/images/INIT.png",
+      "svg": "https://raw.githubusercontent.com/initia-labs/private-registry/main/devnets/minimove/images/INIT.svg"
     }
   ],
   "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/game/images/INIT.png",
-    "svg": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/game/images/INIT.svg"
+    "png": "https://raw.githubusercontent.com/initia-labs/private-registry/main/devnets/minimove/images/INIT.png",
+    "svg": "https://raw.githubusercontent.com/initia-labs/private-registry/main/devnets/minimove/images/INIT.svg"
   },
   "metadata": {
     "op_bridge_id": "2",
