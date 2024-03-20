@@ -146,7 +146,7 @@
       {
         "chain_id": "stonewasm-14",
         "port_id": "transfer",
-        "channel_id": "channel-2",
+        "channel_id": "channel-1",
         "version": "ics20-1"
       },
       {
