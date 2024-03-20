@@ -3,7 +3,7 @@
   "chain_name": "Miniwasm",
   "chain_id": "stonewasm-14",
   "website": "https://initia.xyz",
-  "pretty_name": "Initia WasmVM L2",
+  "pretty_name": "Initia L2 WasmVM",
   "status": "live",
   "network_type": "devnet",
   "bech32_prefix": "init",

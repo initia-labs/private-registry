@@ -3,7 +3,7 @@
   "chain_name": "Minimove",
   "chain_id": "stonemove-14",
   "website": "https://initia.xyz",
-  "pretty_name": "Initia MoveVM L2",
+  "pretty_name": "Initia L2 MoveVM",
   "status": "live",
   "network_type": "devnet",
   "bech32_prefix": "init",
