@@ -137,6 +137,7 @@
         "channel_id": "channel-1",
         "version": "ics721-1"
       }
-    ]
+    ],
+    "assetlist": "https://raw.githubusercontent.com/initia-labs/private-registry/main/devnets/miniwasm/assetlist.json"
   }
 }

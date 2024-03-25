@@ -161,6 +161,7 @@
         "channel_id": "channel-6",
         "version": "ics721-1"
       }
-    ]
-  }
+    ],
+    "assetlist": "https://raw.githubusercontent.com/initia-labs/private-registry/main/devnets/stone/assetlist.json"
+  }  
 }
