@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "Miniwasm",
-  "chain_id": "stonemove-14",
+  "chain_id": "stonewasms-14",
   "website": "https://initia.xyz",
   "pretty_name": "Initia L2 WasmVM",
   "status": "live",
@@ -30,13 +30,13 @@
     "recommended_version": "v0.2.0-beta.5.2",
     "compatible_versions": ["v0.2.0-beta.5.2", "main"],
     "binaries": {
-      "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.5.2_Linux_x86_64.tar.gz",
-      "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.5.2_Linux_aarch64.tar.gz",
-      "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.5.2_Darwin_x86_64.tar.gz",
-      "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.5.2_Darwin_aarch64.tar.gz"
+      "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.5.2_Linux_x86_64.tar.gz",
+      "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.5.2_Linux_aarch64.tar.gz",
+      "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.5.2_Darwin_x86_64.tar.gz",
+      "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.5.2_Darwin_aarch64.tar.gz"
     },
     "genesis": {
-      "genesis_url": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/genesis.json"
+      "genesis_url": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/genesis.json"
     },
     "versions": [
       {
@@ -45,10 +45,10 @@
         "recommended_version": "v0.2.0-beta.6.1",
         "compatible_versions": ["v0.2.0-beta.6.1"],
         "binaries": {
-          "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.6.1_Linux_x86_64.tar.gz",
-          "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.6.1_Linux_aarch64.tar.gz",
-          "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.6.1_Darwin_x86_64.tar.gz",
-          "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonemove-14/minimove_v0.2.0-beta.6.1_Darwin_aarch64.tar.gz"
+          "linux/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.6.1_Linux_x86_64.tar.gz",
+          "linux/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.6.1_Linux_aarch64.tar.gz",
+          "darwin/amd64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.6.1_Darwin_x86_64.tar.gz",
+          "darwin/arm64": "https://initia.s3.ap-southeast-1.amazonaws.com/stonewasms-14/minimove_v0.2.0-beta.6.1_Darwin_aarch64.tar.gz"
         },
         "consensus": {
           "type": "cometbft",
@@ -71,19 +71,19 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.stonemove-14.initia.xyz",
+        "address": "https://rpc.stonewasms-14.initia.xyz",
         "provider": "Foundation"
       }
     ],
     "rest": [
       {
-        "address": "https://lcd.stonemove-14.initia.xyz",
+        "address": "https://lcd.stonewasms-14.initia.xyz",
         "provider": "Foundation"
       }
     ],
     "api": [
       {
-        "address": "https://api.stonemove-14.initia.xyz",
+        "address": "https://api.stonewasms-14.initia.xyz",
         "provider": "Foundation"
       }
     ],
@@ -97,15 +97,15 @@
   "explorers": [
     {
       "kind": "explorer",
-      "url": "https://explorer.stonemove-14.initia.xyz/?layer=minimove",
-      "tx_page": "https://explorer.stonemove-14.initia.xyz/tx/${txHash}?layer=minimove",
-      "account_page": "https://explorer.stonemove-14.initia.xyz/address/${accountAddress}?layer=minimove"
+      "url": "https://explorer.stonewasms-14.initia.xyz/?layer=minimove",
+      "tx_page": "https://explorer.stonewasms-14.initia.xyz/tx/${txHash}?layer=minimove",
+      "account_page": "https://explorer.stonewasms-14.initia.xyz/address/${accountAddress}?layer=minimove"
     },
     {
       "kind": "initia scan",
-      "url": "https://scan.initia.xyz/stonemove-14",
-      "tx_page": "https://scan.initia.xyz/stonemove-14/txs/${txHash}",
-      "account_page": "https://scan.initia.xyz/stonemove-14/accounts/${accountAddress}"
+      "url": "https://scan.initia.xyz/stonewasms-14",
+      "tx_page": "https://scan.initia.xyz/stonewasms-14/txs/${txHash}",
+      "account_page": "https://scan.initia.xyz/stonewasms-14/accounts/${accountAddress}"
     }
   ],
   "images": [
